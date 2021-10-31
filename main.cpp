@@ -42,10 +42,6 @@ class Bank
 
 void Bank :: set_details()
 { 
-  fstream f;
-  f.open("Accountno.txt",ios::ate);
-  
-
   cout<<"Enter the name of customer"<<endl;
   cin.getline(name,100);
   cout<<"Enter the account type: (Savings/Current)\n";
