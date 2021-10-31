@@ -399,7 +399,6 @@ int main()
     cout<<"Invalid choice"<<endl;
    
   }
-  sleep(50);
   }
   return 0;
 }
